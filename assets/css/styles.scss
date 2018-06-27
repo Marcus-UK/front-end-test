@@ -1,0 +1,10 @@
+/* Dependency files */
+@import 'bootstrap/scss/bootstrap';
+@import '../../node_modules/font-awesome/scss/font-awesome';
+
+/* Site Files [EDIT THESE - feel free to add new imports, just remember to add them to components folder] */
+@import 'components/mixins';
+@import 'components/config';
+@import 'components/nav';
+@import 'components/header';
+@import 'components/main';

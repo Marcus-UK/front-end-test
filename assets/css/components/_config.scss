@@ -1,0 +1,96 @@
+//Colours
+$black:             #000000;
+$white:             #ffffff;
+
+$lightgrey:         #FAFAFA;
+$darkgrey:          #282E35;
+$green:             #52AE32;
+
+body {
+    font-family: "semplicitapro",sans-serif;
+}
+
+h1 {
+    font-family: "semplicitapro",sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 55px;
+    @include media-breakpoint-up(md){
+        font-size: 45px;
+        line-height: 65px;
+    }
+    @include media-breakpoint-up(lg){
+        font-size: 70px;
+        line-height: 90px;
+    }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: inline-block;
+    }
+}
+
+a {
+    cursor: pointer;
+    @include transitionMed();
+}
+
+//Outer gutter setting
+$outer-gutter: 80px;
+.container {
+    padding-left: $grid-gutter-width/2;
+    padding-right: $grid-gutter-width/2;
+    @include media-breakpoint-up(sm){
+        padding-left: $outer-gutter/2;
+        padding-right: $outer-gutter/2;  
+    }
+    @include media-breakpoint-up(md){
+        padding-left: $outer-gutter;
+        padding-right: $outer-gutter;  
+    }
+    * { 
+        .container {
+            padding-left: $grid-gutter-width/2;
+            padding-right: $grid-gutter-width/2; 
+        }
+    }
+}
+.container-fluid {
+    .container {
+        &.padding-reset {
+            padding-left: $grid-gutter-width/2!important;
+            padding-right: $grid-gutter-width/2!important;    
+        }
+    }
+}
+//End of outer gutter setting
+
+// Center Bootstap content
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 0;
+    &.green {
+        background: $green;
+        color: $white;
+        &:hover {
+            background: darken($green, 10%);
+        }
+    }
+}

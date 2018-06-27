@@ -1,0 +1,45 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "scripts": {
+    "uglify": "uglifyjs ./assets/js/front.js -m -c -o assets/js/front-min.js",
+    "sass": "node-sass ./assets/css/styles.scss > ./assets/css/stylesheets/style.css --output-style compressed --source-map-embed",
+    "mini": "postcss --use autoprefixer -b 'last 4 versions' < style.css | postcss --use cssnano > style.min.css",
+    "serve": "browser-sync start --proxy 'http://localhost:3003' --files './style.css, assets/js/front.js, ./'",
+    "build:sass": "npm run sass",
+    "build:js": "npm run uglify",
+    "build:all": "npm run build:js && npm run build:sass",
+    "demon": "npm run build:sass && nodemon server -e js",
+    "watch:css": "onchange './assets/css/components/*.scss' -- npm run build:sass",
+    "watch:js": "onchange './assets/js/front.js' -- npm run build:js",
+    "watch:all": "run-p 'watch:css' 'watch:js' 'start' 'serve'",
+    "start": "node server"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.3",
+    "node-sass": "^4.5.3",
+    "postcss-cli": "^4.1.0",
+    "jquery": "3.0.0",
+    "slick-carousel": "1.8.1",
+    "static-route": "0.2.0",
+    "express": "4.16.1",
+    "font-awesome": "4.7.0",
+    "nodemon": "1.12.1",
+    "reload": "2.2.2",
+    "bless": "4.0.4",
+    "browser-sync": "^2.18.13",
+    "cssnano": "3.10.0",
+    "jquery-match-height": "0.7.2",
+    "onchange": "^3.2.1",
+    "npm-run-all": "^4.1.3",
+    "popper.js": "^1.14.3",
+    "postcss": "^6.0.14",
+    "uglify-js": "^3.3.16"
+  },
+  "keywords": [],
+  "author": "BrandFour",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}
