@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10594.5 12238.5 55.823 47.582">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #282e35;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #52ae32;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 10px;
+        font-family: FranklinGothicURW-Dem, FranklinGothic URW;
+      }
+    </style>
+  </defs>
+  <g id="Group_2719" data-name="Group 2719" transform="translate(-11153 8843)">
+    <g id="Group_161" data-name="Group 161" transform="translate(221 1836)">
+      <g id="Group_2717" data-name="Group 2717" transform="translate(365.609 1245.238) rotate(90)">
+        <g id="Group_2716" data-name="Group 2716" transform="translate(324.7 0.3)">
+          <g id="Group_2715" data-name="Group 2715" transform="translate(18.504)">
+            <g id="Group_2714" data-name="Group 2714">
+              <path id="Path_140" data-name="Path 140" class="cls-1" d="M367.2.3l7.576,8.708L367.2,17.716" transform="translate(-367.2 -0.3)"/>
+            </g>
+          </g>
+          <line id="Line_144" data-name="Line 144" class="cls-1" x1="26.124" transform="translate(0 8.708)"/>
+        </g>
+      </g>
+      <path id="Path_141" data-name="Path 141" class="cls-1" d="M10.965.5h26.75V47.082H.5V11.465Z" transform="translate(337.5 1559.5)"/>
+      <rect id="Rectangle_3134" data-name="Rectangle 3134" class="cls-2" width="22" height="13" transform="translate(364 1570)"/>
+      <text id="PDF" class="cls-3" transform="translate(366.323 1572.569)"><tspan x="0" y="7">PDF</tspan></text>
+    </g>
+  </g>
+</svg>

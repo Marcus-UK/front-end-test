@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-16133 -6408.5 90 97">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #52ae32;
+        font-size: 66px;
+        font-family: SemplicitaPro-Bold, Semplicita Pro;
+        font-weight: 700;
+        letter-spacing: 0.07em;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 2.5px;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_3404" data-name="Group 3404" transform="translate(-17056 -8430)">
+    <text id="P" class="cls-1" transform="translate(948 2098)"><tspan x="0" y="0">P</tspan></text>
+    <g id="Rectangle_138" data-name="Rectangle 138" class="cls-2" transform="translate(923 2026)">
+      <rect class="cls-3" width="90" height="90"/>
+      <rect class="cls-4" x="1.25" y="1.25" width="87.5" height="87.5"/>
+    </g>
+  </g>
+</svg>
