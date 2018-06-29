@@ -19,6 +19,13 @@ function addDropdownClass($navHolder){
     });
 }
 
+function displayMobileNavNar(){
+  $('.menu-icon').on('click',function(e){
+      e.preventDefault();
+      $('.mob-nav-holder').slideToggle("slow");
+  });
+}
+
 
 function addTwitter($navHolder){
     $($navHolder+" ul.main-nav > li:last-child").after( '<li><a href="http://twitter.com"><i class="social-btn fa fa-twitter"></i></a></li>' );
@@ -37,6 +44,5 @@ $( document ).ready(function() {
     //Nav
     addDropdownClass('nav');
     addTwitter('nav');
-
-
+    displayMobileNavNar();
 }); //END Doc Ready--------------------------------------------

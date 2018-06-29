@@ -172,8 +172,26 @@ nav {
         @include media-breakpoint-up(md){
             //Tablet Style
             display: none;
-            
+
         }
     }
+    .mob-nav-holder{
+        width: 100%;
+        background-color: white;
+        display: none;
+        li{
+          display: block;
+          border-bottom: 1px solid black;
+          padding: 20px 40px;
+        }
+          a{
+            color: black;
+            font-family: "semplicitapro",sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 12px;
+            cursor: pointer;
+            text-decoration: none;
+          }
+    }
 }
-
