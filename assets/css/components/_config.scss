@@ -86,11 +86,22 @@ $outer-gutter: 80px;
 
 .btn {
     border-radius: 0;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size:15px;
     &.green {
         background: $green;
         color: $white;
+        border: solid 2px $green;
         &:hover {
             background: darken($green, 10%);
+            border-color: darken($green, 10%);
         }
+    }
+    &.white {
+        background: $white;
+        color: $black;
+        border: solid 2px;
+
     }
 }
