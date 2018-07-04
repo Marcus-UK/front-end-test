@@ -32,6 +32,24 @@ function addTwitter($navHolder){
 }
 //-------------------------------------------------------------
 
+//slick function
+
+function addTweetSlider(){
+    $('.tweet-slide').slick({
+        dots: false,
+       infinite: true,
+       speed: 1000,
+       slidesToShow: 1,
+       slidesToScroll: 1,
+       autoplaySpeed: 4000,
+       arrows: true,
+       adaptiveHeight: true,
+       appendArrows: $('.slider-arrows'),
+       nextArrow: "<div class='slider-arrow next-arrow'></div>",
+       prevArrow: "<div class='slider-arrow prev-arrow'></div>"
+    });
+}
+
 
 
 //Doc Ready
@@ -45,4 +63,5 @@ $( document ).ready(function() {
     addDropdownClass('nav');
     addTwitter('nav');
     displayMobileNavNar();
+    addTweetSlider();
 }); //END Doc Ready--------------------------------------------
