@@ -65,3 +65,11 @@ $( document ).ready(function() {
     displayMobileNavNar();
     addTweetSlider();
 }); //END Doc Ready--------------------------------------------
+
+//Window resize
+//-------------------------------------------------------------
+$( window ).resize(function() {
+    if ($(window).width() > 1023) {
+        $('.mob-nav-holder').slideUp();
+    }
+});

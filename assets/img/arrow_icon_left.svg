@@ -32,16 +32,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
+     inkscape:window-width="1920"
+     inkscape:window-height="1022"
      id="namedview3842"
      showgrid="false"
      inkscape:zoom="28.75978"
-     inkscape:cx="6.902"
+     inkscape:cx="0.9909673"
      inkscape:cy="3.875"
-     inkscape:window-x="562"
-     inkscape:window-y="191"
-     inkscape:window-maximized="0"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg3840" />
   <defs
      id="defs3837">
@@ -58,7 +58,7 @@
      id="Path_460"
      data-name="Path 460"
      class="cls-1"
-     d="m -13233.758,-8253.6136 a 0.458,0.458 0 0 0 0.324,0.141 0.407,0.407 0 0 0 0.324,-0.141 0.45,0.45 0 0 0 0,-0.647 l -5.742,-5.741 5.741,-5.741 a 0.45,0.45 0 0 0 0,-0.647 0.45,0.45 0 0 0 -0.647,0 l -6.079,6.065 a 0.45,0.45 0 0 0 0,0.647 z m 0,0"
+     d="m -13233.515,-8253.6136 a 0.458,0.458 0 0 0 0.324,0.141 0.407,0.407 0 0 0 0.324,-0.141 0.45,0.45 0 0 0 0,-0.647 l -5.742,-5.741 5.741,-5.741 a 0.45,0.45 0 0 0 0,-0.647 0.45,0.45 0 0 0 -0.647,0 l -6.079,6.065 a 0.45,0.45 0 0 0 0,0.647 z m 0,0"
      inkscape:connector-curvature="0"
-     style="stroke:#ffffff;stroke-width:0.75px" />
+     style="stroke:#ffffff;stroke-width:0.75px;stroke-opacity:0" />
 </svg>

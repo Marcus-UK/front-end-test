@@ -180,11 +180,64 @@ nav {
         background-color: white;
         display: none;
         li{
-          display: block;
-          border-bottom: 1px solid black;
-          padding: 20px 40px;
+            display: block;
+            position: relative;
+            border-bottom: 1px solid black;
+            padding: 20px 40px;
+            &:last-child {
+                border-bottom: none;
+            }
+            ul {
+                display: none;
+                position: relative;
+                width: 100%;
+                padding-top: 5px;
+                margin-left: -30px;
+                li {
+                    display: block;
+                    padding:20px 30px;
+                    background: $white;
+                    border-bottom: 1px solid $darkgrey;
+                    margin-top: 0;
+                    @include transitionMed();
+                    &:hover {
+                        border-bottom: 1px solid $green;
+                    }
+                    a {
+                        color: $darkgrey!important;
+                    }
+                    &:hover {
+                        a {
+                            color: $green!important;
+                        }
+                    }
+                }
+            }
+            &.hasDropdown {
+               position: relative;
+               &:after {
+                   content:'\f107';
+                   margin-left: calc(-5px - #{$grid-gutter-width});
+                   position: absolute;
+                   display: inline-block;
+                   font-family: "fontAwesome";
+                   color: fade-out($green, 0.1);
+                   font-size: 17px;
+                   -webkit-transform: rotate(0deg);
+                   transform: rotate(0deg);
+                   left: 100%;
+                   top: 17px;
+                   @include transitionMed();
+               }
+               &.open {
+                   &:after {
+                       -webkit-transform: rotate(-180deg);
+                       transform: rotate(-180deg);
+                   }
+               }
+           }
         }
-          a{
+          a {
             color: black;
             font-family: "semplicitapro",sans-serif;
             text-transform: uppercase;

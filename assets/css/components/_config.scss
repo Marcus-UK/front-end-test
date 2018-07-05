@@ -6,6 +6,7 @@ $lightgrey:         #ebebeb;
 $darkgrey:          #282E35;
 $green:             #52AE32;
 $tweetgrey:         #606060;
+$dategrey:          #282e3580;
 
 body {
     font-family: "semplicitapro",sans-serif;
@@ -89,6 +90,7 @@ $outer-gutter: 80px;
     border-radius: 0;
     text-transform: uppercase;
     width: 100%;
+    padding: 10px 0;
     display: inline-block;
     font-size:15px;
     &.green {
