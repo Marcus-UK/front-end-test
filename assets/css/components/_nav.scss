@@ -197,12 +197,9 @@ nav {
                     display: block;
                     padding:20px 30px;
                     background: $white;
-                    border-bottom: 1px solid $darkgrey;
+                    border-bottom: none;
                     margin-top: 0;
                     @include transitionMed();
-                    &:hover {
-                        border-bottom: 1px solid $green;
-                    }
                     a {
                         color: $darkgrey!important;
                     }
